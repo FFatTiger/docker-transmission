@@ -14,6 +14,11 @@ git submodule update --init --recursive
 docker build -t transmission .
 ```
 
+## Alternative: Pull Pre-Built Image
+
+Alternatively, you can pull the pre-built Docker image I have created with the long filename fix from Docker Hub:  
+🔗 [fffattiger/transmission on Docker Hub](https://hub.docker.com/r/fffattiger/transmission)
+
 ## Acknowledgments
 
 Special thanks to [@chrdev](https://github.com/chrdev) for providing the solution to fix the long filename issue that has been affecting Transmission for many years.
@@ -23,4 +28,3 @@ Additional thanks to [@ppenguin](https://github.com/ppenguin) for their support 
 ## Related Issues
 
 - [transmission/transmission#122](https://github.com/transmission/transmission/issues/122) - Original issue discussing the "filename too long" problem
-
